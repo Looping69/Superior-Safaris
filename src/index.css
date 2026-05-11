@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Open Sans", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  
+  --color-primary: #b70606;
+  --color-primary-dark: #8a0000;
+  --color-dark: #202020;
+  --color-darker: #111010;
+  --color-light: #f0f0f0;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+}
+
+/* Hide Google Translate Banner and Tooltips */
+.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate,
+.VIpgJd-Zvi9od-ORHb-OEVmcd,
+.VIpgJd-Zvi9od-aZ2wEe-wOHMyf,
+#goog-gt-tt {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+html, body {
+  top: 0 !important;
+  position: static !important;
+}
+
+.goog-tooltip {
+  display: none !important;
+}
+.goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
