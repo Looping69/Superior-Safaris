@@ -39,6 +39,7 @@ export default function Footer() {
               <li><a href="#specials" className="hover:text-primary transition-colors text-sm">Specials</a></li>
               <li><a href="#gallery" className="hover:text-primary transition-colors text-sm">Gallery</a></li>
               <li><a href="#details" className="hover:text-primary transition-colors text-sm">Safari Details</a></li>
+              <li><a href="/Superior-African-Hunting-Safaris-Price-List-2026.pdf" target="_blank" className="hover:text-primary transition-colors text-sm">2026 Price List (PDF)</a></li>
               <li><a href="#contact" className="hover:text-primary transition-colors text-sm">Contact</a></li>
             </ul>
           </div>

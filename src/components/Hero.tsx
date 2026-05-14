@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -42,14 +43,19 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="flex justify-center"
         >
-          <motion.a 
-            href="#packages"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-sm font-bold transition-colors uppercase tracking-widest text-sm shadow-xl inline-block"
-          >
-            Find it here
-          </motion.a>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <Link 
+              to="/#packages"
+              className="bg-primary hover:bg-primary-dark text-white px-10 py-4 rounded-sm font-bold transition-colors uppercase tracking-widest text-sm shadow-xl inline-block"
+              onClick={() => {
+                setTimeout(() => {
+                  document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+              }}
+            >
+              Find it here
+            </Link>
+          </motion.div>
         </motion.div>
       </div>
     </div>

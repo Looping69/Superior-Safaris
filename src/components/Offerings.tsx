@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
-const packages = [
+export const packages = [
   {
     id: "dangerous",
     title: "DANGEROUS GAME PACKAGES",
@@ -258,8 +260,36 @@ export default function Offerings() {
 
   const drawerDetails = getDrawerDetails();
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Hunting Safari Packages",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Superior African Hunting Safaris"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Safari Packages",
+      "itemListElement": packages.map((pkg, index) => ({
+        "@type": "Offer",
+        "url": `https://www.superiorsafaris.co.za/package/${pkg.id}`,
+        "itemOffered": {
+          "@type": "Service",
+          "name": pkg.title,
+          "description": pkg.description
+        }
+      }))
+    }
+  };
+
   return (
     <section id="packages" className="py-20 bg-dark text-white relative">
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaData)}
+        </script>
+      </Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="text-primary text-3xl md:text-4xl font-bold uppercase mb-8">Hunting Is In Our Blood.</h3>
@@ -298,9 +328,11 @@ export default function Offerings() {
                 <p className="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
                   {pkg.description}
                 </p>
-                <button 
-                  className="bg-primary hover:bg-primary-dark text-white px-6 py-3 font-bold uppercase text-sm transition-colors self-start"
+                <Link 
+                  to={`/package/${pkg.id}`}
+                  className="bg-primary hover:bg-primary-dark text-white px-6 py-3 font-bold uppercase text-sm transition-colors self-start inline-block text-center"
                   onClick={(e) => {
+                    e.preventDefault();
                     if (pkg.id === "dangerous" || pkg.id === "plains" || pkg.id === "speciality" || pkg.id === "tailored" || pkg.id === "fishing" || pkg.id === "caprivi" || pkg.id === "tiger" || pkg.id === "girls") {
                       e.stopPropagation();
                       setActiveDrawer(pkg.id);
@@ -308,7 +340,7 @@ export default function Offerings() {
                   }}
                 >
                   {pkg.buttonText}
-                </button>
+                </Link>
               </div>
             </motion.div>
           ))}
