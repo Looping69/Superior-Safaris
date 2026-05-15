@@ -19,6 +19,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import PackagePage from './pages/PackagePage';
 import SpecialPage from './pages/SpecialPage';
+import MaintenancePage from './pages/MaintenancePage';
+
+const MAINTENANCE_MODE = import.meta.env.VITE_MAINTENANCE_MODE === 'true';
 
 function Home() {
   return (
@@ -74,6 +77,16 @@ function GalleryPage() {
 }
 
 export default function App() {
+  if (MAINTENANCE_MODE) {
+    return (
+      <Router>
+        <Routes>
+          <Route path="*" element={<MaintenancePage />} />
+        </Routes>
+      </Router>
+    );
+  }
+
   return (
     <Router>
       <div className="min-h-screen bg-white font-serif selection:bg-primary/30 flex flex-col">
