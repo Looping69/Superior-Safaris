@@ -15,7 +15,7 @@ export const packages = [
   {
     id: "plains",
     title: "PLAINS GAME PACKAGES",
-    image: "https://images.pexels.com/photos/802112/pexels-photo-802112.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    image: "/images/3-scaled.jpg",
     description: "African Plains game hunting is arguably the largest marketing segment in the world. And for good reason! Affordable options, great diversity, different levels of difficulty, several species slams and the list goes on. Hunting plains game in Africa will never disappoint and is sure to satisfy all your hunting desires.",
     buttonText: "Get Info"
   },

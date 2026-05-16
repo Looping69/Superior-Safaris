@@ -6,7 +6,7 @@ export default function MaintenancePage() {
       {/* Logo */}
       <div className="mb-10">
         <img
-          src="https://www.superiorsafaris.co.za/wp-content/uploads/2023/11/cropped-cropped-logo-2.png"
+          src="/images/cropped-cropped-logo-2.png"
           alt="Superior Safaris Logo"
           className="h-28 mx-auto"
           referrerPolicy="no-referrer"

@@ -43,7 +43,7 @@ export const specials = [
     id: "safari2026",
     title: "2026 Safari Special",
     description: "See Africa in just 5 days with a Superior guide leading the way starting at Kruger Park Lodge with flights to Victoria Falls and O.R Tambo included.",
-    image: "https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=1920",
+    image: "/images/5-1024x683.jpg",
     badge: "$5600.00 per person",
     buttonText: "More Info"
   },
