@@ -10,7 +10,7 @@ export default function Hero() {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="/images/1-scaled.jpg"
           alt="Safari adventure"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
