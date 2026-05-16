@@ -2,18 +2,18 @@ import { motion } from 'motion/react';
 
 export default function About() {
   const images = [
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-03-at-10.18.23_5d33be47-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-461-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-456-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-03-at-10.18.23_2abaf8a3-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-454-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-444-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-422-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-418-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-405-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-387-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-334-150x150.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-91-150x150.jpg",
+    "/images/WhatsApp-Image-2024-03-03-at-10.18.23_5d33be47-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-461-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-456-150x150.jpg",
+    "/images/WhatsApp-Image-2024-03-03-at-10.18.23_2abaf8a3-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-454-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-444-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-422-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-418-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-405-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-387-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-334-150x150.jpg",
+    "/images/ECJ-PHOTOGRAPHY-91-150x150.jpg",
   ];
 
   return (

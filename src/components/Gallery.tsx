@@ -4,18 +4,18 @@ import { ZoomIn, Loader2, Folder, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const fallbackGalleryImages = [
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-03-at-10.18.23_5d33be47-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-461-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-456-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-03-at-10.18.23_2abaf8a3-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-454-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/ECJ-PHOTOGRAPHY-444-150x150.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/4-1024x683.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/5-1024x683.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/11/image-16.jpeg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/safarisfishing.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/hunttailoredbanner.jpg",
-  "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/superiorspecial-5_thumb.jpg"
+  "/images/WhatsApp-Image-2024-03-03-at-10.18.23_5d33be47-150x150.jpg",
+  "/images/ECJ-PHOTOGRAPHY-461-150x150.jpg",
+  "/images/ECJ-PHOTOGRAPHY-456-150x150.jpg",
+  "/images/WhatsApp-Image-2024-03-03-at-10.18.23_2abaf8a3-150x150.jpg",
+  "/images/ECJ-PHOTOGRAPHY-454-150x150.jpg",
+  "/images/ECJ-PHOTOGRAPHY-444-150x150.jpg",
+  "/images/4-1024x683.jpg",
+  "/images/5-1024x683.jpg",
+  "/images/image-16.jpeg",
+  "/images/safarisfishing.jpg",
+  "/images/hunttailoredbanner.jpg",
+  "/images/superiorspecial-5_thumb.jpg"
 ];
 
 export default function Gallery() {

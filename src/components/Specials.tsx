@@ -51,7 +51,7 @@ export const specials = [
     id: "fatherson",
     title: "Father & Son Special",
     description: "Share the ultimate bonding experience. Second hunter pays only 50% of the daily rate. Create memories that will last a lifetime.",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/1-scaled.jpg",
+    image: "/images/1-scaled.jpg",
     badge: "50% OFF 2nd Hunter",
     buttonText: "More Info"
   }
