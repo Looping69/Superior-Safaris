@@ -8,7 +8,7 @@ export const packages = [
   {
     id: "dangerous",
     title: "DANGEROUS GAME PACKAGES",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/f95d1bf7-6408-4ed4-a471-9d8b4a843940-768x1024.jpg",
+    image: "/images/f95d1bf7-6408-4ed4-a471-9d8b4a843940-768x1024.jpg",
     description: "Hunting Africa’s dangerous game might not be for everyone. Nerves of steel and experience as a hunter are very important. Also of great value is the skill of your professional hunter to put you in a position for a clean and effective shot, and to have your back when an animal decides to charge. This is where Superior African Hunting Safaris excel above the rest!",
     buttonText: "Get Info"
   },
@@ -22,42 +22,42 @@ export const packages = [
   {
     id: "speciality",
     title: "SPECIALITY GAME PACKAGES",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/superiorspecial-5_thumb.jpg",
+    image: "/images/superiorspecial-5_thumb.jpg",
     description: "African Plains game hunting is arguably the largest marketing segment in the world. And for good reason! Affordable options, great diversity, different levels of difficulty, several species slams and the list goes on. Hunting plains game in Africa will never disappoint and is sure to satisfy all your hunting desires.",
     buttonText: "Get Info"
   },
   {
     id: "tailored",
     title: "TAILORED SAFARI",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/hunttailoredbanner.jpg",
+    image: "/images/hunttailoredbanner.jpg",
     description: "Tailored Safaris with Superior African Hunting Safaris are all about you. You get to choose what you want to hunt, how you want to hunt it, your available budget, your preferences and pretty much anything else. We will then design your dream hunt and create a Safari Package unlike any other!",
     buttonText: "Get Info"
   },
   {
     id: "fishing",
     title: "FISHING SAFARI",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/safarisfishing.jpg",
+    image: "/images/safarisfishing.jpg",
     description: "With Superior African Hunting Safaris, your next fishing safari is planned to perfection. Real African deepsea fishing adventure awaits you. Why not make this part of your next Superior African Hunting Safaris hunting experience?",
     buttonText: "Get Info"
   },
   {
     id: "caprivi",
     title: "CAPRIVI STRIP, NAMIBIA",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/11/image-16.jpeg",
+    image: "/images/image-16.jpeg",
     description: "The Caprivi Strip is a legendary hunting area now offered by Superior Safaris. If it is hunting in the true wilderness of Africa you desire, then this is the place you need to be!",
     buttonText: "More Info"
   },
   {
     id: "tiger",
     title: "TIGER FISHING",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2023/12/safarisfishing.jpg",
+    image: "/images/safarisfishing.jpg",
     description: "Exclusive 5 Day / 4 Night fishing expedition in Namibia. Experience the thrill of catching the legendary Tiger Fish.",
     buttonText: "Get Info"
   },
   {
     id: "girls",
     title: "ALL GIRLS PACKAGES",
-    image: "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/4-1024x683.jpg",
+    image: "/images/4-1024x683.jpg",
     description: "A new addition for the ladies! Unforgettable trips tailor-made for ladies, from Cape Town to Sun City and Mauritius.",
     buttonText: "Get Info"
   }

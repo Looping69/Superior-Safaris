@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             <img 
-              src="https://www.superiorsafaris.co.za/wp-content/uploads/2023/11/cropped-cropped-logo-2.png" 
+              src="/images/cropped-cropped-logo-2.png" 
               alt="Superior Safaris Logo" 
               className={`transition-all duration-300 ${isSolid ? 'h-16' : 'h-24'}`}
               referrerPolicy="no-referrer"

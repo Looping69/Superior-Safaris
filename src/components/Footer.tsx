@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <div className="flex items-center mb-6">
               <img 
-                src="https://www.superiorsafaris.co.za/wp-content/uploads/2023/11/cropped-cropped-logo-2.png" 
+                src="/images/cropped-cropped-logo-2.png" 
                 alt="Superior Safaris Logo" 
                 className="h-16"
                 referrerPolicy="no-referrer"

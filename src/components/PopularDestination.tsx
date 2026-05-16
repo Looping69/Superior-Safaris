@@ -2,10 +2,10 @@ import { motion } from 'motion/react';
 
 export default function PopularDestination() {
   const images = [
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/1-scaled.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/4-1024x683.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/5-1024x683.jpg",
-    "https://www.superiorsafaris.co.za/wp-content/uploads/2024/03/3-scaled.jpg",
+    "/images/1-scaled.jpg",
+    "/images/4-1024x683.jpg",
+    "/images/5-1024x683.jpg",
+    "/images/3-scaled.jpg",
   ];
 
   return (
