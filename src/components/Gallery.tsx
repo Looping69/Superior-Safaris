@@ -83,31 +83,6 @@ export default function Gallery() {
           </p>
         </div>
 
-        {errorStatus === 'CONFIG_MISSING' && (
-          <div className="bg-yellow-50 text-yellow-800 p-4 border border-yellow-200 rounded-md mb-8 text-center max-w-2xl mx-auto">
-            <h4 className="font-bold">Google Drive Connection Missing or Invalid</h4>
-            <p className="text-sm mt-1">
-              Please configure <code className="bg-yellow-100 px-1 py-0.5 rounded">GOOGLE_DRIVE_API_KEY</code> and <code className="bg-yellow-100 px-1 py-0.5 rounded">GOOGLE_DRIVE_FOLDER_ID</code> in your environment.
-              <br />
-              <strong>Note:</strong> The folder and its contents <strong>must</strong> be shared as "Anyone with the link can view".
-            </p>
-          </div>
-        )}
-
-        {errorStatus === 'EMPTY_FOLDER' && (
-          <div className="bg-blue-50 text-blue-800 p-8 border border-blue-200 rounded-md mb-8 text-center max-w-2xl mx-auto">
-            <h4 className="font-bold text-lg mb-2">No Images Found</h4>
-            <p className="text-sm">
-              We couldn't find any images in this folder.
-            </p>
-            <ul className="text-sm mt-4 list-disc text-left pl-8 space-y-1 inline-block">
-              <li>Make sure there are image files (like .jpg, .png) in the folder.</li>
-              <li>Make sure the folder is shared as <strong>"Anyone with the link can view"</strong> in Google Drive.</li>
-              <li>Wait a moment if you recently changed permissions or added files.</li>
-            </ul>
-          </div>
-        )}
-
         {folderHistory.length > 0 && (
           <div className="mb-6 flex justify-start max-w-7xl mx-auto">
             <button 
